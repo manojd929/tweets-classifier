@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <a className="twitter-timeline" href="https://twitter.com/AlokJagawat?ref_src=twsrc%5Etfw">Tweets by AlokJagawat</a> <script async src="https://platform.twitter.com/widgets.js"></script>
+      </body>
     </html>
   );
 }

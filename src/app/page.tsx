@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <h1 className={styles.pageHeader}>
-        Alok Jagawat Tweets Showcase
+        Tweets
       </h1>
     </main>
   );
